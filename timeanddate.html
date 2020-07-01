@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Time and Day</title>
+	</head>
+	<body style="background-color:navy;">
+		<h1 style="font-family:Courier; color:white;">Time and Day</h1>
+		<button style="background-color:black; color:white; font-family:Courier; border-radius:25px; border:2px solid white;" onclick="tad()">Click to display</button>
+		<p id="pr" style="font-family:Courier; color:white"></p>
+		<script>
+		function tad() {
+			document.getElementById("pr").textContent = Date()	
+		}
+		</script>
+	</body>
+</html>
